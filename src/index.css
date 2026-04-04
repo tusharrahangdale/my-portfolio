@@ -1,0 +1,98 @@
+@import "tailwindcss";
+/* ================= HEADING ANIMATION ================= */
+/*.section-title {*/
+/*    font-size: 2.5rem;*/
+/*    font-weight: 800;*/
+/*    text-align: center;*/
+/*    position: relative;*/
+/*    display: inline-block;*/
+/*    margin: 0 auto;*/
+/*    background: linear-gradient(to right, #2563eb, #9333ea);*/
+/*    -webkit-background-clip: text;*/
+/*    color: transparent;*/
+/*}*/
+
+/*.section-title::after {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    left: 50%;*/
+/*    bottom: -8px;*/
+/*    width: 0;*/
+/*    height: 4px;*/
+/*    background: linear-gradient(to right, #2563eb, #9333ea);*/
+/*    transition: all 0.4s ease;*/
+/*    transform: translateX(-50%);*/
+/*}*/
+
+/*.section-title:hover::after {*/
+/*    width: 100%;*/
+/*}*/
+/*------------------------------------------------------------*/
+/*.section-title {*/
+/*    font-size: 2.5rem;*/
+/*    font-weight: 800;*/
+
+/*    !* ये 3 लाइन्स जादुई हैं: सेंटर करने और अंडरलाइन बचाने के लिए *!*/
+/*    display: block;*/
+/*    width: fit-content;    !* सिर्फ टेक्स्ट जितनी चौड़ाई लेगा *!*/
+/*    margin: 20px auto;     !* पूरे ब्लॉक को स्क्रीन के बीच में रखेगा *!*/
+
+/*    text-align: center;*/
+/*    position: relative;*/
+/*    background: linear-gradient(to right, #2563eb, #9333ea);*/
+/*    -webkit-background-clip: text;*/
+/*    -webkit-text-fill-color: transparent; !* कुछ ब्राउज़र्स के लिए ज़रूरी *!*/
+/*    color: transparent;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*!* अंडरलाइन का कोड (इसे वैसा ही रहने दें) *!*/
+/*.section-title::after {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    left: 50%;*/
+/*    bottom: -8px;*/
+/*    width: 0;*/
+/*    height: 4px;*/
+/*    background: linear-gradient(to right, #2563eb, #9333ea);*/
+/*    transition: all 0.4s ease;*/
+/*    transform: translateX(-50%);*/
+/*}*/
+
+/*!* होवर करने पर अंडरलाइन दिखेगी *!*/
+/*.section-title:hover::after {*/
+/*    width: 100%;*/
+/*}*/
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    display: block;
+    width: fit-content;
+    margin: 0 auto 30px; /* नीचे थोड़ा गैप देने के लिए */
+    text-align: center;
+    position: relative;
+
+    /* बैकग्राउंड डार्क है, इसलिए टेक्स्ट सफ़ेद रखें */
+    color: #ffffff;
+
+    /* पुराने Gradient को यहाँ से हटा दें या Comment कर दें */
+    background: none;
+    -webkit-background-clip: initial;
+    -webkit-text-fill-color: initial;
+}
+
+/* अंडरलाइन को सफ़ेद या हल्का गुलाबी रखें ताकि वो दिखे */
+/*.section-title::after {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    left: 50%;*/
+/*    bottom: -8px;*/
+/*    width: 0;*/
+/*    height: 4px;*/
+/*    background: linear-gradient(to right, #2563eb, #9333ea);*/
+/*    transition: all 0.4s ease;*/
+/*    transform: translateX(-50%);*/
+/*}*/
+.section-title:hover::after {
+    width: 100%;
+}
