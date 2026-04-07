@@ -35,7 +35,7 @@ export default function HireMe() {
 
         try {
             // fetch: जावा बैकएंड (Spring Boot) के API एंडपॉइंट को कॉल करना
-            const response = await fetch("http://localhost:8080/api/contact", {
+            const response = await fetch("http://portfolio-backend-production-39fd.up.railway.app", {
                 method: "POST", // डेटा भेजने के लिए POST मेथड का उपयोग
                 headers: { "Content-Type": "application/json" }, // सर्वर को बताना कि हम JSON भेज रहे हैं
                 body: JSON.stringify(formData), // जावास्क्रिप्ट ऑब्जेक्ट को JSON स्ट्रिंग में बदलना

@@ -1,25 +1,3 @@
-// import { FaGithub, FaLinkedin,FaInstagram, FaWhatsapp } from "react-icons/fa";
-//
-// export default function Contact() {
-//     return (
-//         <div className="bg-gradient-to-r from-purple-600 to-blue-600 text-white py-16 text-center">
-//
-//             <h2 className="section-title"> Contact</h2>
-//
-//             <div className="flex justify-center gap-8 text-3xl">
-//
-//                 <a href="#" className="hover:scale-125 transition"><FaGithub /></a>
-//                 <a href="#" className="hover:scale-125 transition"><FaLinkedin /></a>
-//                 <a href="#" className="hover:scale-125 transition"><FaInstagram /></a>
-//                 <a href="#" className="hover:scale-125 transition"><FaWhatsapp /></a>
-//
-//             </div>
-//
-//             <p className="mt-6 text-lg">tusharrahangdale17@gmail.com</p>
-//
-//         </div>
-//     );
-// }
 import { FaGithub, FaLinkedin, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 export default function Contact() {
